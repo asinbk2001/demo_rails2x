@@ -1,0 +1,455 @@
+/!\ FAILSAFE /!\  Thu Jul 21 23:08:23 +0700 2011
+  Status: 500 Internal Server Error
+  no such file to load -- sqlite3
+    /home/kevin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:36:in `gem_original_require'
+    /home/kevin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:36:in `require'
+    /home/kevin/.rvm/gems/ruby-1.8.7-p334@rails2.3/gems/activesupport-2.3.11/lib/active_support/dependencies.rb:182:in `require'
+    /home/kevin/.rvm/gems/ruby-1.8.7-p334@rails2.3/gems/activesupport-2.3.11/lib/active_support/dependencies.rb:547:in `new_constants_in'
+    /home/kevin/.rvm/gems/ruby-1.8.7-p334@rails2.3/gems/activesupport-2.3.11/lib/active_support/dependencies.rb:182:in `require'
+    /home/kevin/.rvm/gems/ruby-1.8.7-p334@rails2.3/gems/activesupport-2.3.11/lib/active_support/core_ext/kernel/requires.rb:7:in `require_library_or_gem'
+    /home/kevin/.rvm/gems/ruby-1.8.7-p334@rails2.3/gems/activesupport-2.3.11/lib/active_support/core_ext/kernel/reporting.rb:11:in `silence_warnings'
+    /home/kevin/.rvm/gems/ruby-1.8.7-p334@rails2.3/gems/activesupport-2.3.11/lib/active_support/core_ext/kernel/requires.rb:5:in `require_library_or_gem'
+    /home/kevin/.rvm/gems/ruby-1.8.7-p334@rails2.3/gems/activerecord-2.3.11/lib/active_record/connection_adapters/sqlite3_adapter.rb:10:in `sqlite3_connection'
+    /home/kevin/.rvm/gems/ruby-1.8.7-p334@rails2.3/gems/activerecord-2.3.11/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `send'
+    /home/kevin/.rvm/gems/ruby-1.8.7-p334@rails2.3/gems/activerecord-2.3.11/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `new_connection'
+    /home/kevin/.rvm/gems/ruby-1.8.7-p334@rails2.3/gems/activerecord-2.3.11/lib/active_record/connection_adapters/abstract/connection_pool.rb:245:in `checkout_new_connection'
+    /home/kevin/.rvm/gems/ruby-1.8.7-p334@rails2.3/gems/activerecord-2.3.11/lib/active_record/connection_adapters/abstract/connection_pool.rb:188:in `checkout'
+    /home/kevin/.rvm/gems/ruby-1.8.7-p334@rails2.3/gems/activerecord-2.3.11/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `loop'
+    /home/kevin/.rvm/gems/ruby-1.8.7-p334@rails2.3/gems/activerecord-2.3.11/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `checkout'
+    /home/kevin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/monitor.rb:242:in `synchronize'
+    /home/kevin/.rvm/gems/ruby-1.8.7-p334@rails2.3/gems/activerecord-2.3.11/lib/active_record/connection_adapters/abstract/connection_pool.rb:183:in `checkout'
+    /home/kevin/.rvm/gems/ruby-1.8.7-p334@rails2.3/gems/activerecord-2.3.11/lib/active_record/connection_adapters/abstract/connection_pool.rb:98:in `connection'
+    /home/kevin/.rvm/gems/ruby-1.8.7-p334@rails2.3/gems/activerecord-2.3.11/lib/active_record/connection_adapters/abstract/connection_pool.rb:326:in `retrieve_connection'
+    /home/kevin/.rvm/gems/ruby-1.8.7-p334@rails2.3/gems/activerecord-2.3.11/lib/active_record/connection_adapters/abstract/connection_specification.rb:123:in `retrieve_connection'
+    /home/kevin/.rvm/gems/ruby-1.8.7-p334@rails2.3/gems/activerecord-2.3.11/lib/active_record/connection_adapters/abstract/connection_specification.rb:115:in `connection'
+    /home/kevin/.rvm/gems/ruby-1.8.7-p334@rails2.3/gems/activerecord-2.3.11/lib/active_record/query_cache.rb:9:in `cache'
+    /home/kevin/.rvm/gems/ruby-1.8.7-p334@rails2.3/gems/activerecord-2.3.11/lib/active_record/query_cache.rb:28:in `call'
+    /home/kevin/.rvm/gems/ruby-1.8.7-p334@rails2.3/gems/activerecord-2.3.11/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    /home/kevin/.rvm/gems/ruby-1.8.7-p334@rails2.3/gems/actionpack-2.3.11/lib/action_controller/string_coercion.rb:25:in `call'
+    /home/kevin/.rvm/gems/ruby-1.8.7-p334@rails2.3/gems/rack-1.1.2/lib/rack/head.rb:9:in `call'
+    /home/kevin/.rvm/gems/ruby-1.8.7-p334@rails2.3/gems/rack-1.1.2/lib/rack/methodoverride.rb:24:in `call'
+    /home/kevin/.rvm/gems/ruby-1.8.7-p334@rails2.3/gems/actionpack-2.3.11/lib/action_controller/params_parser.rb:15:in `call'
+    /home/kevin/.rvm/gems/ruby-1.8.7-p334@rails2.3/gems/actionpack-2.3.11/lib/action_controller/session/cookie_store.rb:99:in `call'
+    /home/kevin/.rvm/gems/ruby-1.8.7-p334@rails2.3/gems/actionpack-2.3.11/lib/action_controller/failsafe.rb:26:in `call'
+    /home/kevin/.rvm/gems/ruby-1.8.7-p334@rails2.3/gems/rack-1.1.2/lib/rack/lock.rb:11:in `call'
+    /home/kevin/.rvm/gems/ruby-1.8.7-p334@rails2.3/gems/rack-1.1.2/lib/rack/lock.rb:11:in `synchronize'
+    /home/kevin/.rvm/gems/ruby-1.8.7-p334@rails2.3/gems/rack-1.1.2/lib/rack/lock.rb:11:in `call'
+    /home/kevin/.rvm/gems/ruby-1.8.7-p334@rails2.3/gems/actionpack-2.3.11/lib/action_controller/dispatcher.rb:114:in `call'
+    /home/kevin/.rvm/gems/ruby-1.8.7-p334@rails2.3/gems/actionpack-2.3.11/lib/action_controller/reloader.rb:34:in `run'
+    /home/kevin/.rvm/gems/ruby-1.8.7-p334@rails2.3/gems/actionpack-2.3.11/lib/action_controller/dispatcher.rb:108:in `call'
+    /home/kevin/.rvm/gems/ruby-1.8.7-p334@rails2.3/gems/rails-2.3.11/lib/rails/rack/static.rb:31:in `call'
+    /home/kevin/.rvm/gems/ruby-1.8.7-p334@rails2.3/gems/rack-1.1.2/lib/rack/urlmap.rb:47:in `call'
+    /home/kevin/.rvm/gems/ruby-1.8.7-p334@rails2.3/gems/rack-1.1.2/lib/rack/urlmap.rb:41:in `each'
+    /home/kevin/.rvm/gems/ruby-1.8.7-p334@rails2.3/gems/rack-1.1.2/lib/rack/urlmap.rb:41:in `call'
+    /home/kevin/.rvm/gems/ruby-1.8.7-p334@rails2.3/gems/rails-2.3.11/lib/rails/rack/log_tailer.rb:17:in `call'
+    /home/kevin/.rvm/gems/ruby-1.8.7-p334@rails2.3/gems/rack-1.1.2/lib/rack/content_length.rb:13:in `call'
+    /home/kevin/.rvm/gems/ruby-1.8.7-p334@rails2.3/gems/rack-1.1.2/lib/rack/handler/webrick.rb:48:in `service'
+    /home/kevin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /home/kevin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /home/kevin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /home/kevin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /home/kevin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /home/kevin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /home/kevin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /home/kevin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /home/kevin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /home/kevin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /home/kevin/.rvm/gems/ruby-1.8.7-p334@rails2.3/gems/rack-1.1.2/lib/rack/handler/webrick.rb:14:in `run'
+    /home/kevin/.rvm/gems/ruby-1.8.7-p334@rails2.3/gems/rails-2.3.11/lib/commands/server.rb:111
+    /home/kevin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:36:in `gem_original_require'
+    /home/kevin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:36:in `require'
+    script/server:3
+/!\ FAILSAFE /!\  Thu Jul 21 23:08:53 +0700 2011
+  Status: 500 Internal Server Error
+  no such file to load -- sqlite3
+    /home/kevin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:36:in `gem_original_require'
+    /home/kevin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:36:in `require'
+    /home/kevin/.rvm/gems/ruby-1.8.7-p334@rails2.3/gems/activesupport-2.3.11/lib/active_support/dependencies.rb:182:in `require'
+    /home/kevin/.rvm/gems/ruby-1.8.7-p334@rails2.3/gems/activesupport-2.3.11/lib/active_support/dependencies.rb:547:in `new_constants_in'
+    /home/kevin/.rvm/gems/ruby-1.8.7-p334@rails2.3/gems/activesupport-2.3.11/lib/active_support/dependencies.rb:182:in `require'
+    /home/kevin/.rvm/gems/ruby-1.8.7-p334@rails2.3/gems/activesupport-2.3.11/lib/active_support/core_ext/kernel/requires.rb:7:in `require_library_or_gem'
+    /home/kevin/.rvm/gems/ruby-1.8.7-p334@rails2.3/gems/activesupport-2.3.11/lib/active_support/core_ext/kernel/reporting.rb:11:in `silence_warnings'
+    /home/kevin/.rvm/gems/ruby-1.8.7-p334@rails2.3/gems/activesupport-2.3.11/lib/active_support/core_ext/kernel/requires.rb:5:in `require_library_or_gem'
+    /home/kevin/.rvm/gems/ruby-1.8.7-p334@rails2.3/gems/activerecord-2.3.11/lib/active_record/connection_adapters/sqlite3_adapter.rb:10:in `sqlite3_connection'
+    /home/kevin/.rvm/gems/ruby-1.8.7-p334@rails2.3/gems/activerecord-2.3.11/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `send'
+    /home/kevin/.rvm/gems/ruby-1.8.7-p334@rails2.3/gems/activerecord-2.3.11/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `new_connection'
+    /home/kevin/.rvm/gems/ruby-1.8.7-p334@rails2.3/gems/activerecord-2.3.11/lib/active_record/connection_adapters/abstract/connection_pool.rb:245:in `checkout_new_connection'
+    /home/kevin/.rvm/gems/ruby-1.8.7-p334@rails2.3/gems/activerecord-2.3.11/lib/active_record/connection_adapters/abstract/connection_pool.rb:188:in `checkout'
+    /home/kevin/.rvm/gems/ruby-1.8.7-p334@rails2.3/gems/activerecord-2.3.11/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `loop'
+    /home/kevin/.rvm/gems/ruby-1.8.7-p334@rails2.3/gems/activerecord-2.3.11/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `checkout'
+    /home/kevin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/monitor.rb:242:in `synchronize'
+    /home/kevin/.rvm/gems/ruby-1.8.7-p334@rails2.3/gems/activerecord-2.3.11/lib/active_record/connection_adapters/abstract/connection_pool.rb:183:in `checkout'
+    /home/kevin/.rvm/gems/ruby-1.8.7-p334@rails2.3/gems/activerecord-2.3.11/lib/active_record/connection_adapters/abstract/connection_pool.rb:98:in `connection'
+    /home/kevin/.rvm/gems/ruby-1.8.7-p334@rails2.3/gems/activerecord-2.3.11/lib/active_record/connection_adapters/abstract/connection_pool.rb:326:in `retrieve_connection'
+    /home/kevin/.rvm/gems/ruby-1.8.7-p334@rails2.3/gems/activerecord-2.3.11/lib/active_record/connection_adapters/abstract/connection_specification.rb:123:in `retrieve_connection'
+    /home/kevin/.rvm/gems/ruby-1.8.7-p334@rails2.3/gems/activerecord-2.3.11/lib/active_record/connection_adapters/abstract/connection_specification.rb:115:in `connection'
+    /home/kevin/.rvm/gems/ruby-1.8.7-p334@rails2.3/gems/activerecord-2.3.11/lib/active_record/query_cache.rb:9:in `cache'
+    /home/kevin/.rvm/gems/ruby-1.8.7-p334@rails2.3/gems/activerecord-2.3.11/lib/active_record/query_cache.rb:28:in `call'
+    /home/kevin/.rvm/gems/ruby-1.8.7-p334@rails2.3/gems/activerecord-2.3.11/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    /home/kevin/.rvm/gems/ruby-1.8.7-p334@rails2.3/gems/actionpack-2.3.11/lib/action_controller/string_coercion.rb:25:in `call'
+    /home/kevin/.rvm/gems/ruby-1.8.7-p334@rails2.3/gems/rack-1.1.2/lib/rack/head.rb:9:in `call'
+    /home/kevin/.rvm/gems/ruby-1.8.7-p334@rails2.3/gems/rack-1.1.2/lib/rack/methodoverride.rb:24:in `call'
+    /home/kevin/.rvm/gems/ruby-1.8.7-p334@rails2.3/gems/actionpack-2.3.11/lib/action_controller/params_parser.rb:15:in `call'
+    /home/kevin/.rvm/gems/ruby-1.8.7-p334@rails2.3/gems/actionpack-2.3.11/lib/action_controller/session/cookie_store.rb:99:in `call'
+    /home/kevin/.rvm/gems/ruby-1.8.7-p334@rails2.3/gems/actionpack-2.3.11/lib/action_controller/failsafe.rb:26:in `call'
+    /home/kevin/.rvm/gems/ruby-1.8.7-p334@rails2.3/gems/rack-1.1.2/lib/rack/lock.rb:11:in `call'
+    /home/kevin/.rvm/gems/ruby-1.8.7-p334@rails2.3/gems/rack-1.1.2/lib/rack/lock.rb:11:in `synchronize'
+    /home/kevin/.rvm/gems/ruby-1.8.7-p334@rails2.3/gems/rack-1.1.2/lib/rack/lock.rb:11:in `call'
+    /home/kevin/.rvm/gems/ruby-1.8.7-p334@rails2.3/gems/actionpack-2.3.11/lib/action_controller/dispatcher.rb:114:in `call'
+    /home/kevin/.rvm/gems/ruby-1.8.7-p334@rails2.3/gems/actionpack-2.3.11/lib/action_controller/reloader.rb:34:in `run'
+    /home/kevin/.rvm/gems/ruby-1.8.7-p334@rails2.3/gems/actionpack-2.3.11/lib/action_controller/dispatcher.rb:108:in `call'
+    /home/kevin/.rvm/gems/ruby-1.8.7-p334@rails2.3/gems/rails-2.3.11/lib/rails/rack/static.rb:31:in `call'
+    /home/kevin/.rvm/gems/ruby-1.8.7-p334@rails2.3/gems/rack-1.1.2/lib/rack/urlmap.rb:47:in `call'
+    /home/kevin/.rvm/gems/ruby-1.8.7-p334@rails2.3/gems/rack-1.1.2/lib/rack/urlmap.rb:41:in `each'
+    /home/kevin/.rvm/gems/ruby-1.8.7-p334@rails2.3/gems/rack-1.1.2/lib/rack/urlmap.rb:41:in `call'
+    /home/kevin/.rvm/gems/ruby-1.8.7-p334@rails2.3/gems/rails-2.3.11/lib/rails/rack/log_tailer.rb:17:in `call'
+    /home/kevin/.rvm/gems/ruby-1.8.7-p334@rails2.3/gems/rack-1.1.2/lib/rack/content_length.rb:13:in `call'
+    /home/kevin/.rvm/gems/ruby-1.8.7-p334@rails2.3/gems/rack-1.1.2/lib/rack/handler/webrick.rb:48:in `service'
+    /home/kevin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /home/kevin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /home/kevin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /home/kevin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /home/kevin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /home/kevin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /home/kevin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /home/kevin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /home/kevin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /home/kevin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /home/kevin/.rvm/gems/ruby-1.8.7-p334@rails2.3/gems/rack-1.1.2/lib/rack/handler/webrick.rb:14:in `run'
+    /home/kevin/.rvm/gems/ruby-1.8.7-p334@rails2.3/gems/rails-2.3.11/lib/commands/server.rb:111
+    /home/kevin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:36:in `gem_original_require'
+    /home/kevin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:36:in `require'
+    script/server:3
+  [4;36;1mSQL (0.3ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mselect sqlite_version(*)[0m
+  [4;36;1mSQL (143.4ms)[0m   [0;1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mPRAGMA index_list("schema_migrations")[0m
+  [4;36;1mSQL (75.0ms)[0m   [0;1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [4;35;1mSQL (0.3ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+Migrating to CreateProjects (20110711054106)
+  [4;35;1mSQL (0.7ms)[0m   [0mCREATE TABLE "projects" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "content" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20110711054106')[0m
+  [4;35;1mSQL (0.2ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.1ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("projects")[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-07-22 08:51:56) [GET]
+
+ActionController::RoutingError (No route matches "/projects" with {:method=>:get}):
+  /home/kevin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/kevin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/kevin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/kevin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/kevin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/kevin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/kevin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/kevin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/kevin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/kevin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-07-22 08:52:00) [GET]
+
+ActionController::RoutingError (No route matches "/projects" with {:method=>:get}):
+  /home/kevin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/kevin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/kevin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/kevin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/kevin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/kevin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/kevin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/kevin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/kevin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/kevin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-07-22 08:53:33) [GET]
+  [4;36;1mProject Load (0.5ms)[0m   [0;1mSELECT * FROM "projects" [0m
+Rendering template within layouts/projects
+Rendering projects/index
+Completed in 98ms (View: 93, DB: 1) | 200 OK [http://localhost/projects]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-07-22 08:56:53) [GET]
+  [4;35;1mProject Load (0.4ms)[0m   [0mSELECT * FROM "projects" [0m
+Rendering template within layouts/projects
+Rendering projects/index
+Completed in 6ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ProjectsController#new (for 127.0.0.1 at 2011-07-22 08:56:59) [GET]
+Rendering template within layouts/projects
+Rendering projects/new
+Completed in 79ms (View: 74, DB: 0) | 200 OK [http://localhost/projects/new]
+
+
+Processing ProjectsController#create (for 127.0.0.1 at 2011-07-22 08:57:10) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"ipC1fNhG0PhhiBd5Ifz2rvRCmD4/2WXOu1tEb46ubF0=", "project"=>{"name"=>"kevin", "content"=>"test"}}
+  [4;36;1mProject Create (0.4ms)[0m   [0;1mINSERT INTO "projects" ("name", "created_at", "updated_at", "content") VALUES('kevin', '2011-07-22 01:57:10', '2011-07-22 01:57:10', 'test')[0m
+Redirected to http://localhost:3000/projects/1
+Completed in 165ms (DB: 0) | 302 Found [http://localhost/projects]
+
+
+Processing ProjectsController#show (for 127.0.0.1 at 2011-07-22 08:57:10) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mProject Load (0.2ms)[0m   [0mSELECT * FROM "projects" WHERE ("projects"."id" = 1) [0m
+Rendering template within layouts/projects
+Rendering projects/show
+Completed in 24ms (View: 17, DB: 0) | 200 OK [http://localhost/projects/1]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-07-22 08:57:12) [GET]
+  [4;36;1mProject Load (0.4ms)[0m   [0;1mSELECT * FROM "projects" [0m
+Rendering template within layouts/projects
+Rendering projects/index
+Completed in 10ms (View: 5, DB: 0) | 200 OK [http://localhost/projects]
+
+
+Processing ProjectsController#new (for 127.0.0.1 at 2011-07-22 09:53:10) [GET]
+Rendering template within layouts/projects
+Rendering projects/new
+Completed in 60ms (View: 55, DB: 0) | 200 OK [http://localhost/projects/new]
+
+
+Processing ProjectsController#create (for 127.0.0.1 at 2011-07-22 09:53:18) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"ipC1fNhG0PhhiBd5Ifz2rvRCmD4/2WXOu1tEb46ubF0=", "project"=>{"name"=>"kevin", "content"=>"kdkekkdfkdjfla"}}
+  [4;35;1mProject Create (0.3ms)[0m   [0mINSERT INTO "projects" ("name", "created_at", "updated_at", "content") VALUES('kevin', '2011-07-22 02:53:18', '2011-07-22 02:53:18', 'kdkekkdfkdjfla')[0m
+Redirected to http://localhost:3000/projects/2
+Completed in 124ms (DB: 0) | 302 Found [http://localhost/projects]
+
+
+Processing ProjectsController#show (for 127.0.0.1 at 2011-07-22 09:53:18) [GET]
+  Parameters: {"id"=>"2"}
+  [4;36;1mProject Load (0.2ms)[0m   [0;1mSELECT * FROM "projects" WHERE ("projects"."id" = 2) [0m
+Rendering template within layouts/projects
+Rendering projects/show
+Completed in 7ms (View: 2, DB: 0) | 200 OK [http://localhost/projects/2]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-07-22 09:53:20) [GET]
+  [4;35;1mProject Load (0.4ms)[0m   [0mSELECT * FROM "projects" [0m
+Rendering template within layouts/projects
+Rendering projects/index
+Completed in 18ms (View: 10, DB: 0) | 200 OK [http://localhost/projects]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-07-23 08:34:46) [GET]
+
+SyntaxError (/home/kevin/rails_project/rails2x/first_app/app/controllers/projects_controller.rb:4: syntax error, unexpected '='
+  =begin
+   ^
+/home/kevin/rails_project/rails2x/first_app/app/controllers/projects_controller.rb:84: syntax error, unexpected '=', expecting kEND
+  =end
+   ^):
+  /home/kevin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/kevin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/kevin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/kevin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/kevin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/kevin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/kevin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/kevin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/kevin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/kevin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (85.7ms)
+Rendered rescues/_request_and_response (1.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-07-23 08:35:40) [GET]
+
+SyntaxError (/home/kevin/rails_project/rails2x/first_app/app/controllers/projects_controller.rb:4: syntax error, unexpected '='
+  =begin
+   ^):
+  /home/kevin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/kevin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/kevin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/kevin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/kevin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/kevin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/kevin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/kevin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/kevin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/kevin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (34.6ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-07-23 08:36:56) [GET]
+Rendering template within layouts/projects
+Rendering projects/index
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each) on line #9 of app/views/projects/index.html.erb:
+6:     <th>Content</th>
+7:   </tr>
+8: 
+9: <% @projects.each do |project| %>
+10:   <tr>
+11:     <td><%=h project.name %></td>
+12:     <td><%=h project.content %></td>
+
+    app/views/projects/index.html.erb:9
+    /home/kevin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /home/kevin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /home/kevin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /home/kevin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /home/kevin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /home/kevin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /home/kevin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /home/kevin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /home/kevin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /home/kevin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (106.5ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-07-23 08:37:53) [GET]
+Rendering template within layouts/projects
+Rendering projects/index
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each) on line #9 of app/views/projects/index.html.erb:
+6:     <th>Content</th>
+7:   </tr>
+8: 
+9: <% @projects.each do |project| %>
+10:   <tr>
+11:     <td><%=h project.name %></td>
+12:     <td><%=h project.content %></td>
+
+    app/views/projects/index.html.erb:9
+    /home/kevin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /home/kevin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /home/kevin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /home/kevin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /home/kevin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /home/kevin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /home/kevin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /home/kevin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /home/kevin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /home/kevin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (44.0ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ProjectsController#show (for 127.0.0.1 at 2011-07-23 08:38:08) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/projects
+Rendering projects/show
+
+ActionView::TemplateError (undefined method `name' for nil:NilClass) on line #3 of app/views/projects/show.html.erb:
+1: <p>
+2:   <b>Name:</b>
+3:   <%=h @project.name %>
+4: </p>
+5: 
+6: <p>
+
+    app/views/projects/show.html.erb:3
+    /home/kevin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /home/kevin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /home/kevin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /home/kevin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /home/kevin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /home/kevin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /home/kevin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /home/kevin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /home/kevin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /home/kevin/.rvm/rubies/ruby-1.8.7-p334/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (104.2ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ProjectsController#show (for 127.0.0.1 at 2011-07-23 08:57:12) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mProject Load (0.2ms)[0m   [0;1mSELECT * FROM "projects" WHERE ("projects"."id" = 1) [0m
+Rendering template within layouts/projects
+Rendering projects/show
+Completed in 40ms (View: 5, DB: 0) | 200 OK [http://localhost/projects/1]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-07-23 08:57:16) [GET]
+  [4;35;1mProject Load (0.4ms)[0m   [0mSELECT * FROM "projects" [0m
+Rendering template within layouts/projects
+Rendering projects/index
+Completed in 38ms (View: 33, DB: 0) | 200 OK [http://localhost/projects]
+
+
+Processing ProjectsController#new (for 127.0.0.1 at 2011-07-23 08:57:19) [GET]
+Rendering template within layouts/projects
+Rendering projects/new
+Completed in 48ms (View: 43, DB: 0) | 200 OK [http://localhost/projects/new]
+
+
+Processing ProjectsController#create (for 127.0.0.1 at 2011-07-23 09:07:45) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"muL/08shc7diTI+TDxVijYDF28/adCL3d3qbptZ+7iE=", "project"=>{"name"=>"test", "content"=>"test"}}
+  [4;36;1mProject Create (0.4ms)[0m   [0;1mINSERT INTO "projects" ("name", "created_at", "updated_at", "content") VALUES('test', '2011-07-23 02:07:45', '2011-07-23 02:07:45', 'test')[0m
+Redirected to http://localhost:3000/projects/3
+Completed in 265ms (DB: 0) | 302 Found [http://localhost/projects]
+
+
+Processing ProjectsController#show (for 127.0.0.1 at 2011-07-23 09:07:45) [GET]
+  Parameters: {"id"=>"3"}
+  [4;35;1mProject Load (0.2ms)[0m   [0mSELECT * FROM "projects" WHERE ("projects"."id" = 3) [0m
+Rendering template within layouts/projects
+Rendering projects/show
+Completed in 8ms (View: 3, DB: 0) | 200 OK [http://localhost/projects/3]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-07-23 09:07:47) [GET]
+  [4;36;1mProject Load (0.5ms)[0m   [0;1mSELECT * FROM "projects" [0m
+Rendering template within layouts/projects
+Rendering projects/index
+Completed in 14ms (View: 10, DB: 0) | 200 OK [http://localhost/projects]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-07-23 09:07:53) [GET]
+  [4;35;1mProject Load (0.4ms)[0m   [0mSELECT * FROM "projects" [0m
+Rendering template within layouts/projects
+Rendering projects/index
+Completed in 14ms (View: 10, DB: 0) | 200 OK [http://localhost/projects]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-07-23 09:07:54) [GET]
+  [4;36;1mProject Load (0.5ms)[0m   [0;1mSELECT * FROM "projects" [0m
+Rendering template within layouts/projects
+Rendering projects/index
+Completed in 14ms (View: 9, DB: 0) | 200 OK [http://localhost/projects]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2011-07-23 09:07:55) [GET]
+  [4;35;1mProject Load (0.5ms)[0m   [0mSELECT * FROM "projects" [0m
+Rendering template within layouts/projects
+Rendering projects/index
+Completed in 14ms (View: 9, DB: 0) | 200 OK [http://localhost/projects]
